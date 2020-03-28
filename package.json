@@ -1,0 +1,32 @@
+{
+  "name": "tbilisi-traffic-routing-frontend",
+  "version": "1.0.0",
+  "description": "A project can be used to visualize objects on the map, there is GPS and a OSRM built in too which will provide routing, but it's linked to the OSRM's demo API so in case of not demo usage, you should swith to your own service",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp config/SettingsDevel.ts src/Settings.ts && tsc && webpack",
+    "build-prod": "cp config/SettingsProd.ts src/Settings.ts && tsc && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokadva/tbilisi-traffic-routing-frontend.git"
+  },
+  "author": "Konstantine Dvalishvili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kokadva/tbilisi-traffic-routing-frontend/issues"
+  },
+  "homepage": "https://github.com/kokadva/tbilisi-traffic-routing-frontend#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "ol": "^6.2.1",
+    "rxjs": "^6.5.4"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

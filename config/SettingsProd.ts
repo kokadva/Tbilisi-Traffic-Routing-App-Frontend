@@ -1,0 +1,1 @@
+export const SERVER_BASE_URL = 'https://tbilisi-traffic-routing-backen.herokuapp.com';

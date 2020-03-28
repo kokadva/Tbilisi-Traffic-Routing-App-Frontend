@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Tbilisi Traffic Routing App!</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/css/ol.css" type="text/css">
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL,fetch"></script>
+    <link rel="stylesheet" href="css/indexPageStyle.css" type="text/css">
+
+</head>
+<body>
+
+<!--Map container-->
+<div id="map" class="map" style="position: relative; height: 500px; width: 100%;"></div>
+<br/>
+<button id="load-map">Load</button>
+<label for="route_num">Enter Bus Number:</label>
+<input id="route_num" type="number">
+<button id="traffic_show_button">Show Traffic</button>
+<button id="traffic_hide_button">Hide Traffic</button>
+<button id="route_clear_button">Clear Route</button>
+<p id="routeDetails"></p>
+<script src="dist/main.js"></script>
+</body>
+</html>

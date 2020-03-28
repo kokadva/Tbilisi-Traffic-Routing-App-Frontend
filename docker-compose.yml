@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  openlayers-app:
+    image: 'openlayers-app'
+    ports:
+      - '80:80'
