@@ -50,8 +50,8 @@ traffic data which we gather just to have more fun. +_+
 4. Build docker image `docker build -t openlayers-app:latest .`
 5. Run `docker-compose up` to start the app and the database
 
-### Frontend Repository:
-https://some.url.for.frontend.project.gihub.com
+### Backend Repository:
+https://github.com/kokadva/Tbilisi-Traffic-Routing-App-Backend
 
 ### Authors:
 * Konstantine Dvalishvili konstantine.dvalishvil@gmail.com
